@@ -21,13 +21,13 @@ const database = {
 }
 
 export const getDocks = () => {
-    structuredClone(database.docks)
+   return structuredClone(database.docks)
 }
 
 export const getHaulers = () => {
-    structuredClone(database.haulers)
+   return structuredClone(database.haulers)
 }
 
 export const getShips = () => {
-    structuredClone(database.shippingShips)
+   return structuredClone(database.shippingShips)
 }
